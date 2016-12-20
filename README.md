@@ -10,8 +10,10 @@ Product Definition:
 
 User Definition:
 Object User: People who want to use Google Map, Yahoo Weather and currency exchange rate helper but don’t want to install them three at same time (might be restricted by their iPhone’s capacity).
-User’s Age/Gender/Ethnicity/Religion: All.\n
-Native Language: English (might add other language support later).\n
-Geographic Location: the world.\n
-User Hobby: Travel.\n
+User’s Age/Gender/Ethnicity/Religion: All.
+Native Language: English (might add other language support later).
+Geographic Location: the world.
+User Hobby: Travel.
 
+Application type:
+Free application with Google Adsense Banner Advertisement.
