@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>phrase</key>
+	<array>
+		<string></string>
+		<string></string>
+		<string>Hello!                                     Hallo!</string>
+		<string>BYE!                                  Tschüss!</string>
+		<string>I&apos;m lost.                   ich bin verlore.</string>
+		<string>Take care!                        Pass auf!</string>
+	</array>
+</dict>
+</plist>

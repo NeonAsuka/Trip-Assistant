@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17665E0F1DF4EF4A00086F02 /* wpid-free-web-travel-vector-background-with-beautiful-landscape-1170x1170.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17665E0E1DF4EF4A00086F02 /* wpid-free-web-travel-vector-background-with-beautiful-landscape-1170x1170.jpg */; };
+		176665731DDBB43F002663C7 /* newCur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176665721DDBB43E002663C7 /* newCur.swift */; };
+		176665831DDC0E96002663C7 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 176665801DDC0E96002663C7 /* toolicon.png */; };
+		176B09571DD140690004553B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 176B09561DD140690004553B /* GoogleService-Info (1).plist */; };
+		176B09591DD1407D0004553B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176B09581DD1407D0004553B /* GoogleMobileAds.framework */; };
+		18103CCE1DECC6F40043CFC6 /* PhraseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18103CCD1DECC6F40043CFC6 /* PhraseViewController.swift */; };
+		184105131DF0863E001B06B1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184105121DF0863E001B06B1 /* SWRevealViewController.m */; };
+		184105191DF09138001B06B1 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184105181DF09138001B06B1 /* MenuController.swift */; };
+		184A023E1DEC828700DEC123 /* KoreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A023D1DEC828700DEC123 /* KoreaViewController.swift */; };
+		184A024C1DECB4BC00DEC123 /* germany.gif in Resources */ = {isa = PBXBuildFile; fileRef = 184A02481DECB4BC00DEC123 /* germany.gif */; };
+		184A024D1DECB4BC00DEC123 /* gr.png in Resources */ = {isa = PBXBuildFile; fileRef = 184A02491DECB4BC00DEC123 /* gr.png */; };
+		184A02521DECB63500DEC123 /* japan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 184A02511DECB63500DEC123 /* japan.gif */; };
+		184A02541DECB6A100DEC123 /* France.gif in Resources */ = {isa = PBXBuildFile; fileRef = 184A02531DECB6A100DEC123 /* France.gif */; };
+		184A02561DECB8AC00DEC123 /* GermanyTableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184A02551DECB8AC00DEC123 /* GermanyTableData.plist */; };
+		184A02581DECBA1500DEC123 /* GermanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A02571DECBA1500DEC123 /* GermanViewController.swift */; };
+		184A025A1DECBC8100DEC123 /* JapanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A02591DECBC8100DEC123 /* JapanViewController.swift */; };
+		184A025C1DECBCB900DEC123 /* JapanTableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184A025B1DECBCB900DEC123 /* JapanTableData.plist */; };
+		184A025E1DECBE2D00DEC123 /* FranceTableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184A025D1DECBE2D00DEC123 /* FranceTableData.plist */; };
+		184A02601DECBF0100DEC123 /* FranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A025F1DECBF0100DEC123 /* FranceViewController.swift */; };
+		18741E621DEB494F00D4DB89 /* travel-planning-690x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18741E611DEB494F00D4DB89 /* travel-planning-690x300.jpg */; };
+		18741E6C1DEB77DA00D4DB89 /* TableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18741E6B1DEB77DA00D4DB89 /* TableData.plist */; };
+		18741E701DEB7B0800D4DB89 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18741E6F1DEB7B0800D4DB89 /* TableViewController.swift */; };
+		18741E761DEB8E8B00D4DB89 /* ch-lgflag.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18741E751DEB8E8B00D4DB89 /* ch-lgflag.gif */; };
+		18741E811DEBBEFD00D4DB89 /* kp1946.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18741E801DEBBEFD00D4DB89 /* kp1946.gif */; };
+		18741E851DEBC12300D4DB89 /* KoreaTableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18741E841DEBC12300D4DB89 /* KoreaTableData.plist */; };
+		1896193D1DA9617000CD7CCC /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896193C1DA9617000CD7CCC /* location.swift */; };
+		18C26A531DE9E16000BA8B5A /* currency-dollar-finances-background-11083290.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18C26A521DE9E16000BA8B5A /* currency-dollar-finances-background-11083290.jpg */; };
+		18C26A591DEA025A00BA8B5A /* weather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18C26A581DEA025A00BA8B5A /* weather.jpg */; };
+		18C26A5D1DEA0C6E00BA8B5A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18C26A5C1DEA0C6E00BA8B5A /* Podfile */; };
+		D43A9BA51CD9524200EC22B7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A9BA41CD9524200EC22B7 /* Weather.swift */; };
+		D4C502791CB6082900B46FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C502781CB6082900B46FBA /* AppDelegate.swift */; };
+		D4C5027B1CB6082900B46FBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C5027A1CB6082900B46FBA /* ViewController.swift */; };
+		D4C5027E1CB6082900B46FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C5027C1CB6082900B46FBA /* Main.storyboard */; };
+		D4C502801CB6082900B46FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C5027F1CB6082900B46FBA /* Assets.xcassets */; };
+		D4C502831CB6082900B46FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C502811CB6082900B46FBA /* LaunchScreen.storyboard */; };
+		D4C5028B1CB6089600B46FBA /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C5028A1CB6089600B46FBA /* WeatherGetter.swift */; };
+		E42C37BA534823B44C634411 /* Pods_trip_assistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A50F926A94EAF7C7758DBB /* Pods_trip_assistant.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17665E0E1DF4EF4A00086F02 /* wpid-free-web-travel-vector-background-with-beautiful-landscape-1170x1170.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wpid-free-web-travel-vector-background-with-beautiful-landscape-1170x1170.jpg"; sourceTree = "<group>"; };
+		176665721DDBB43E002663C7 /* newCur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCur.swift; sourceTree = "<group>"; };
+		176665801DDC0E96002663C7 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		176B09561DD140690004553B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		176B09581DD1407D0004553B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		18103CCD1DECC6F40043CFC6 /* PhraseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseViewController.swift; sourceTree = "<group>"; };
+		184105101DF0863D001B06B1 /* trip assistant-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "trip assistant-Bridging-Header.h"; sourceTree = "<group>"; };
+		184105111DF0863E001B06B1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		184105121DF0863E001B06B1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		184105181DF09138001B06B1 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		184A023D1DEC828700DEC123 /* KoreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaViewController.swift; sourceTree = "<group>"; };
+		184A02481DECB4BC00DEC123 /* germany.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = germany.gif; sourceTree = SOURCE_ROOT; };
+		184A02491DECB4BC00DEC123 /* gr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gr.png; sourceTree = SOURCE_ROOT; };
+		184A02511DECB63500DEC123 /* japan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = japan.gif; sourceTree = SOURCE_ROOT; };
+		184A02531DECB6A100DEC123 /* France.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = France.gif; sourceTree = SOURCE_ROOT; };
+		184A02551DECB8AC00DEC123 /* GermanyTableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GermanyTableData.plist; sourceTree = "<group>"; };
+		184A02571DECBA1500DEC123 /* GermanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GermanViewController.swift; sourceTree = "<group>"; };
+		184A02591DECBC8100DEC123 /* JapanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapanViewController.swift; sourceTree = "<group>"; };
+		184A025B1DECBCB900DEC123 /* JapanTableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JapanTableData.plist; sourceTree = "<group>"; };
+		184A025D1DECBE2D00DEC123 /* FranceTableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FranceTableData.plist; sourceTree = "<group>"; };
+		184A025F1DECBF0100DEC123 /* FranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FranceViewController.swift; sourceTree = "<group>"; };
+		18741E611DEB494F00D4DB89 /* travel-planning-690x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "travel-planning-690x300.jpg"; sourceTree = SOURCE_ROOT; };
+		18741E6B1DEB77DA00D4DB89 /* TableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TableData.plist; sourceTree = "<group>"; };
+		18741E6F1DEB7B0800D4DB89 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		18741E751DEB8E8B00D4DB89 /* ch-lgflag.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ch-lgflag.gif"; sourceTree = SOURCE_ROOT; };
+		18741E801DEBBEFD00D4DB89 /* kp1946.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kp1946.gif; sourceTree = SOURCE_ROOT; };
+		18741E841DEBC12300D4DB89 /* KoreaTableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KoreaTableData.plist; sourceTree = "<group>"; };
+		1896193C1DA9617000CD7CCC /* location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
+		18C26A521DE9E16000BA8B5A /* currency-dollar-finances-background-11083290.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "currency-dollar-finances-background-11083290.jpg"; sourceTree = SOURCE_ROOT; };
+		18C26A581DEA025A00BA8B5A /* weather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather.jpg; sourceTree = SOURCE_ROOT; };
+		18C26A5C1DEA0C6E00BA8B5A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		20A50F926A94EAF7C7758DBB /* Pods_trip_assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trip_assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE7B14D1E670502D03C4C89 /* Pods-trip assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trip assistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trip assistant/Pods-trip assistant.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7B6F9A5066672885CD95CF /* Pods-trip assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trip assistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-trip assistant/Pods-trip assistant.release.xcconfig"; sourceTree = "<group>"; };
+		D43A9BA41CD9524200EC22B7 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		D4C502751CB6082900B46FBA /* trip assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trip assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C502781CB6082900B46FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4C5027A1CB6082900B46FBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4C5027D1CB6082900B46FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4C5027F1CB6082900B46FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4C502821CB6082900B46FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4C502841CB6082900B46FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C5028A1CB6089600B46FBA /* WeatherGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; tabWidth = 2; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C502721CB6082900B46FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B09591DD1407D0004553B /* GoogleMobileAds.framework in Frameworks */,
+				E42C37BA534823B44C634411 /* Pods_trip_assistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528B317B21F237D93773EA83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20A50F926A94EAF7C7758DBB /* Pods_trip_assistant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76E72D19138C7EDDF1CCF132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE7B14D1E670502D03C4C89 /* Pods-trip assistant.debug.xcconfig */,
+				7B7B6F9A5066672885CD95CF /* Pods-trip assistant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4C5026C1CB6082900B46FBA = {
+			isa = PBXGroup;
+			children = (
+				176B09581DD1407D0004553B /* GoogleMobileAds.framework */,
+				D4C502771CB6082900B46FBA /* trip assitant */,
+				D4C502761CB6082900B46FBA /* Products */,
+				76E72D19138C7EDDF1CCF132 /* Pods */,
+				528B317B21F237D93773EA83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C502761CB6082900B46FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C502751CB6082900B46FBA /* trip assistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C502771CB6082900B46FBA /* trip assitant */ = {
+			isa = PBXGroup;
+			children = (
+				184105111DF0863E001B06B1 /* SWRevealViewController.h */,
+				184105181DF09138001B06B1 /* MenuController.swift */,
+				184105121DF0863E001B06B1 /* SWRevealViewController.m */,
+				18C26A5C1DEA0C6E00BA8B5A /* Podfile */,
+				176B09561DD140690004553B /* GoogleService-Info (1).plist */,
+				176665721DDBB43E002663C7 /* newCur.swift */,
+				D4C5027A1CB6082900B46FBA /* ViewController.swift */,
+				D4C5028A1CB6089600B46FBA /* WeatherGetter.swift */,
+				D4C502781CB6082900B46FBA /* AppDelegate.swift */,
+				D43A9BA41CD9524200EC22B7 /* Weather.swift */,
+				1896193C1DA9617000CD7CCC /* location.swift */,
+				D4C5027C1CB6082900B46FBA /* Main.storyboard */,
+				D4C502811CB6082900B46FBA /* LaunchScreen.storyboard */,
+				17665E0E1DF4EF4A00086F02 /* wpid-free-web-travel-vector-background-with-beautiful-landscape-1170x1170.jpg */,
+				D4C5027F1CB6082900B46FBA /* Assets.xcassets */,
+				18741E751DEB8E8B00D4DB89 /* ch-lgflag.gif */,
+				18103CCD1DECC6F40043CFC6 /* PhraseViewController.swift */,
+				18741E801DEBBEFD00D4DB89 /* kp1946.gif */,
+				184A02481DECB4BC00DEC123 /* germany.gif */,
+				184A02511DECB63500DEC123 /* japan.gif */,
+				184A02491DECB4BC00DEC123 /* gr.png */,
+				184A02531DECB6A100DEC123 /* France.gif */,
+				18741E611DEB494F00D4DB89 /* travel-planning-690x300.jpg */,
+				18C26A581DEA025A00BA8B5A /* weather.jpg */,
+				18C26A521DE9E16000BA8B5A /* currency-dollar-finances-background-11083290.jpg */,
+				176665801DDC0E96002663C7 /* toolicon.png */,
+				D4C502841CB6082900B46FBA /* Info.plist */,
+				18741E6F1DEB7B0800D4DB89 /* TableViewController.swift */,
+				184A023D1DEC828700DEC123 /* KoreaViewController.swift */,
+				184A02571DECBA1500DEC123 /* GermanViewController.swift */,
+				184A02591DECBC8100DEC123 /* JapanViewController.swift */,
+				184A025F1DECBF0100DEC123 /* FranceViewController.swift */,
+				184A025B1DECBCB900DEC123 /* JapanTableData.plist */,
+				18741E6B1DEB77DA00D4DB89 /* TableData.plist */,
+				184A025D1DECBE2D00DEC123 /* FranceTableData.plist */,
+				184A02551DECB8AC00DEC123 /* GermanyTableData.plist */,
+				18741E841DEBC12300D4DB89 /* KoreaTableData.plist */,
+				184105101DF0863D001B06B1 /* trip assistant-Bridging-Header.h */,
+			);
+			name = "trip assitant";
+			path = SimpleWeather;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4C502741CB6082900B46FBA /* trip assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C502871CB6082900B46FBA /* Build configuration list for PBXNativeTarget "trip assistant" */;
+			buildPhases = (
+				05BD282B302470196996B444 /* [CP] Check Pods Manifest.lock */,
+				D4C502711CB6082900B46FBA /* Sources */,
+				D4C502721CB6082900B46FBA /* Frameworks */,
+				D4C502731CB6082900B46FBA /* Resources */,
+				CBB5D399071FBA8DAA151870 /* [CP] Embed Pods Frameworks */,
+				2E531FD67776654462C46846 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "trip assistant";
+			productName = SimpleWeather;
+			productReference = D4C502751CB6082900B46FBA /* trip assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4C5026D1CB6082900B46FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joey deVilla";
+				TargetAttributes = {
+					D4C502741CB6082900B46FBA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D4C502701CB6082900B46FBA /* Build configuration list for PBXProject "trip assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4C5026C1CB6082900B46FBA;
+			productRefGroup = D4C502761CB6082900B46FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C502741CB6082900B46FBA /* trip assistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4C502731CB6082900B46FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A02561DECB8AC00DEC123 /* GermanyTableData.plist in Resources */,
+				D4C502831CB6082900B46FBA /* LaunchScreen.storyboard in Resources */,
+				17665E0F1DF4EF4A00086F02 /* wpid-free-web-travel-vector-background-with-beautiful-landscape-1170x1170.jpg in Resources */,
+				D4C502801CB6082900B46FBA /* Assets.xcassets in Resources */,
+				184A024D1DECB4BC00DEC123 /* gr.png in Resources */,
+				D4C5027E1CB6082900B46FBA /* Main.storyboard in Resources */,
+				18741E811DEBBEFD00D4DB89 /* kp1946.gif in Resources */,
+				18741E851DEBC12300D4DB89 /* KoreaTableData.plist in Resources */,
+				184A02521DECB63500DEC123 /* japan.gif in Resources */,
+				184A025E1DECBE2D00DEC123 /* FranceTableData.plist in Resources */,
+				184A02541DECB6A100DEC123 /* France.gif in Resources */,
+				18741E621DEB494F00D4DB89 /* travel-planning-690x300.jpg in Resources */,
+				184A025C1DECBCB900DEC123 /* JapanTableData.plist in Resources */,
+				184A024C1DECB4BC00DEC123 /* germany.gif in Resources */,
+				176665831DDC0E96002663C7 /* toolicon.png in Resources */,
+				18C26A5D1DEA0C6E00BA8B5A /* Podfile in Resources */,
+				18C26A591DEA025A00BA8B5A /* weather.jpg in Resources */,
+				176B09571DD140690004553B /* GoogleService-Info (1).plist in Resources */,
+				18C26A531DE9E16000BA8B5A /* currency-dollar-finances-background-11083290.jpg in Resources */,
+				18741E761DEB8E8B00D4DB89 /* ch-lgflag.gif in Resources */,
+				18741E6C1DEB77DA00D4DB89 /* TableData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BD282B302470196996B444 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E531FD67776654462C46846 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trip assistant/Pods-trip assistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB5D399071FBA8DAA151870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trip assistant/Pods-trip assistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4C502711CB6082900B46FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184105131DF0863E001B06B1 /* SWRevealViewController.m in Sources */,
+				184A02581DECBA1500DEC123 /* GermanViewController.swift in Sources */,
+				184A025A1DECBC8100DEC123 /* JapanViewController.swift in Sources */,
+				184A023E1DEC828700DEC123 /* KoreaViewController.swift in Sources */,
+				D43A9BA51CD9524200EC22B7 /* Weather.swift in Sources */,
+				18741E701DEB7B0800D4DB89 /* TableViewController.swift in Sources */,
+				D4C5027B1CB6082900B46FBA /* ViewController.swift in Sources */,
+				176665731DDBB43F002663C7 /* newCur.swift in Sources */,
+				184105191DF09138001B06B1 /* MenuController.swift in Sources */,
+				184A02601DECBF0100DEC123 /* FranceViewController.swift in Sources */,
+				1896193D1DA9617000CD7CCC /* location.swift in Sources */,
+				D4C5028B1CB6089600B46FBA /* WeatherGetter.swift in Sources */,
+				D4C502791CB6082900B46FBA /* AppDelegate.swift in Sources */,
+				18103CCE1DECC6F40043CFC6 /* PhraseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4C5027C1CB6082900B46FBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C5027D1CB6082900B46FBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4C502811CB6082900B46FBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C502821CB6082900B46FBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4C502851CB6082900B46FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D4C502861CB6082900B46FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4C502881CB6082900B46FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE7B14D1E670502D03C4C89 /* Pods-trip assistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SimpleWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haochenl;
+				PRODUCT_NAME = "trip assistant";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleWeather/trip assistant-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4C502891CB6082900B46FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7B6F9A5066672885CD95CF /* Pods-trip assistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SimpleWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haochenl;
+				PRODUCT_NAME = "trip assistant";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleWeather/trip assistant-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4C502701CB6082900B46FBA /* Build configuration list for PBXProject "trip assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C502851CB6082900B46FBA /* Debug */,
+				D4C502861CB6082900B46FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C502871CB6082900B46FBA /* Build configuration list for PBXNativeTarget "trip assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C502881CB6082900B46FBA /* Debug */,
+				D4C502891CB6082900B46FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4C5026D1CB6082900B46FBA /* Project object */;
+}
