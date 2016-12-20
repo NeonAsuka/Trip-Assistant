@@ -6,7 +6,7 @@ Application Name: Traveler Assistant
 Developer: Ran Cheng, Haochen Li
 
 Product Definition:
-“Traveler Assistant” helps travelers get information about their location, local weather condition and the exchange rate of local currency.
+“Trip Assistant” helps travelers get information about their location, local weather condition and the exchange rate of local currency.
 
 User Definition:
 Object User: People who want to use Google Map, Yahoo Weather and currency exchange rate helper but don’t want to install them three at same time (might be restricted by their iPhone’s capacity).
