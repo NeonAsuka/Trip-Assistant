@@ -1,5 +1,5 @@
 # Trip-Assistant
-ios application (built by swift2.2)
+ios application (built by swift2.3)
 
 Application Name: Trip Assistant
 
