@@ -1,7 +1,7 @@
 # Trip-Assistant
 ios application (built by swift2.2)
 
-Application Name: Traveler Assistant
+Application Name: Trip Assistant
 
 Developers: Ran Cheng, Haochen Li
 
