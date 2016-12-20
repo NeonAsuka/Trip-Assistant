@@ -3,7 +3,7 @@ ios application (built by swift2.2)
 
 Application Name: Traveler Assistant
 
-Developer: Ran Cheng, Haochen Li
+Developers: Ran Cheng, Haochen Li
 
 Product Definition:
 “Trip Assistant” helps travelers get information about their location, local weather condition and the exchange rate of local currency.
